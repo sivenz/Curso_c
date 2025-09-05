@@ -19,6 +19,8 @@ int main()  {
     printf("Digite sua altura: ");
     scanf("%f", &altura);
 
-    printf("Suas informações: %c\n%d\n%.1f\n%.2f", sexo, idade, peso, altura);
+    // buffer do teclado => m\n
+
+    printf("Suas informações\n Sexo:%c\nIdade:%d\nPeso:%.1f\nAltura:%.2f", sexo, idade, peso, altura);
 
 }
